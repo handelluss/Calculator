@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonStyle1">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="backgroundTint">@color/button_style1</item>
+        <item name="android:textColor">@color/button_style2</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="buttonStyle2">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="backgroundTint">@color/button_style2</item>
+        <item name="android:textColor">@color/button_style1</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="buttonRow">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    
+    <style name="rectangleLayout">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+</resources>
