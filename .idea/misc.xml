@@ -6,11 +6,13 @@
         <entry key="..\:/Develop/Calculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/drawable/rounded_button.xml" value="0.2265" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/font/digital_numbers_font_family.xml" value="0.284375" />
+        <entry key="..\:/Develop/Calculator/app/src/main/res/font/montserrat_font_family.xml" value="0.284375" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/font/museo300_font_family.xml" value="0.284375" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/font/museo700_font_family.xml" value="0.284375" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/font/museomoderno_bold.xml" value="0.14322916666666666" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/layout/activity.xml" value="0.25416666666666665" />
         <entry key="..\:/Develop/Calculator/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Develop/Calculator/app/src/main/res/layout/test.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

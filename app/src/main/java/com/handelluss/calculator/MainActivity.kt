@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
                         "=" -> equalsAction()
                         "AC" -> allClearAction()
                         "+/-" -> plusMinusAction()
-                        "+", "-", "*", "/", "%" -> operatorAction(button.text[0])
+                        "+", "-", "X", "÷", "%" -> operatorAction(button.text[0])
                         "," -> numberAction('.')
                         else -> numberAction(button.text[0])
                     }
@@ -130,8 +130,8 @@ class MainActivity : AppCompatActivity() {
         val result : Double = when(storedOperator) {
             '+' -> storedOperand!! + secondOperand
             '-' -> storedOperand!! - secondOperand
-            '*' -> storedOperand!! * secondOperand
-            '/' -> storedOperand!! / secondOperand
+            'X' -> storedOperand!! * secondOperand
+            '÷' -> storedOperand!! / secondOperand
             '%' -> storedOperand!! * (secondOperand / 100.0)
             else -> throw Exception("storedOperator has wrong value")
         }
